@@ -13,7 +13,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-        defaultZone: http://admin:a@localhost:7801/eureka
+        defaultZone: http://localhost:7801
   instance: # eureak实例定义
     hostname: localhost # 定义 Eureka 实例所在的主机名称
 spring:
@@ -35,7 +35,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-        defaultZone: http://admin:a@localhost:7802/eureka
+        defaultZone: http://localhost:7801
   instance: # eureak实例定义
     hostname: localhost # 定义 Eureka 实例所在的主机名称
 spring:
