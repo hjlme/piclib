@@ -45,4 +45,4 @@ spring:
       name: admin
       password: a
   application:
-    name: microcloud-config-eureka-client
+    name: microservice-config-eureka-client
