@@ -4,7 +4,7 @@ spring:
       - dev
 ---
 server:
- port: 8080
+ port: 8888
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
@@ -50,7 +50,7 @@ management:
         
 ---
 server:
- port: 8081
+ port: 8889
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
